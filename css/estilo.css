@@ -1,5 +1,5 @@
 .fundoMenu{
-    background-color: rgb(163, 112, 211);
+    background-color: rgb(197, 169, 223);
 }
 
 .logosize{
@@ -12,6 +12,14 @@
 
 .paddingtit{
     padding: 1.2em;
+}
+
+.color-tit{
+  color: #9171ad;
+}
+
+.color2-tit{
+  color: #b693d4;
 }
 
 .custom-accordion .accordion-button {
