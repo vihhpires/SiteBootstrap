@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg fundoMenu">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img class="logosize" src="img/Logo.png" alt="">
+          <img class="logosize" src="img/logoofc.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,13 +23,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 minhafont">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
+              <a class="nav-link" href="#Sobre">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Competencias</a>
+              <a class="nav-link" href="#Competencias">Competencias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -37,26 +40,23 @@
                 Projetos
               </a>
               <ul class="dropdown-menu  dropdown-menu-end ">
-                <li><a class="dropdown-item" href="#">SiteHair</a></li>
-                <li><a class="dropdown-item" href="#">Galeria</a></li>
-                <li><a class="dropdown-item" href="#">Jg-da-memória</a></li>
-                <li><a class="dropdown-item" href="#">Calculadora</a></li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Artes Digitais</a></li>
-                <li><a class="dropdown-item" href="#">Figma</a></li>
-                <li><a class="dropdown-item" href="#">Teatro</a></li>
-              </ul>
+                <li><a class="dropdown-item" href="galeria.html">Galeria</a></li>
+                <li><a class="dropdown-item" href="jg-memoria.html">Jg-da-memória</a></li>
+                <hr class="dropdown-divider">
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true"></a>
-            </li>
+            <li><a class="dropdown-item" href="site-hair.html">SiteHair</a></li>
+            <li><a class="dropdown-item" href="calculadora.html">Calculadora</a></li>
+          </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"></a>
+          </li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-  <section>
+  <section id="Home">
     <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -164,72 +164,78 @@
 
 
     <section id="Competencias" class="text-center">
-      <h1 class="paddingtit color-tit">Competências socioemocionais</h1>
-
       <div class="container">
+        <h1 class="paddingtit color-tit">Competências socioemocionais</h1>
+
         <div class="row">
           <!-- Card 1 -->
           <div class="col-12 col-sm-6 col-md-4">
-            <div class="card mb-3">
+            <div class="card mb-3 card-show">
               <img src="img/entu.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2 class="color2-tit">Entusiasmo</h2>
-                <p class="card-text">Sempre gosto de um ambiente leve e alegre, e muitas das vezes quando não estão eu busca animar as pessoas e melhora o ambiente em que estou.</p>
+                <p class="card-text">Sempre gosto de um ambiente leve e alegre, e muitas das vezes quando não estão eu
+                  busca animar as pessoas e melhora o ambiente em que estou.</p>
               </div>
             </div>
           </div>
 
           <!-- Card 2 -->
           <div class="col-12 col-sm-6 col-md-4">
-            <div class="card mb-3">
+            <div class="card mb-3 card-show">
               <img src="img/deter.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2 class="color-tit">Determição</h2>
-                <p class="card-text">Quando tenho algo para entregar ou fazer levo a sério e persisto idependente das dificuldades pode demorar mais irei cumpirir o que eu devo fazer.</p>
+                <p class="card-text">Quando tenho algo para entregar ou fazer levo a sério e persisto idependente das
+                  dificuldades pode demorar mais irei cumpirir o que eu devo fazer.</p>
               </div>
             </div>
           </div>
 
           <!-- Card 3 -->
           <div class="col-12 col-sm-6 col-md-4">
-            <div class="card mb-3">
+            <div class="card mb-3 card-show">
               <img src="img/equipe.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2 class="color2-tit">Trabalho em Equipe</h2>
-                <p class="card-text">Trabalho muito bem em quipe sempre tenho empatia e respeito com os outros e tambem sou bem versatil, posso ser a que lidera ou a que auxilia.</p>
+                <p class="card-text">Trabalho muito bem em quipe sempre tenho empatia e respeito com os outros e tambem
+                  sou bem versatil, posso ser a que lidera ou a que auxilia.</p>
               </div>
             </div>
           </div>
 
           <!-- Card 4 -->
           <div class="col-12 col-sm-6 col-md-4">
-            <div class="card mb-3">
+            <div class="card mb-3 card-show">
               <img src="img/respon.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2 class="color-tit">Responsabilidade</h2>
-                <p class="card-text">Sempre que sou atribuida a algo busco fazer e levo com muita seriedade os meus compromissos.</p>
+                <p class="card-text">Sempre que sou atribuida a algo busco fazer e levo com muita seriedade os meus
+                  compromissos.</p>
               </div>
             </div>
           </div>
 
           <!-- Card 5 -->
           <div class="col-12 col-sm-6 col-md-4">
-            <div class="card mb-3">
+            <div class="card mb-3 card-show">
               <img src="img/persis.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2 class="color2-tit">Persistência</h2>
-                <p class="card-text">Tendo dificuldades ou não eu vou levar a frente até conseguir o que eu preciso ter ou entregar.</p>
+                <p class="card-text">Tendo dificuldades ou não eu vou levar a frente até conseguir o que eu preciso ter
+                  ou entregar.</p>
               </div>
             </div>
           </div>
 
           <!-- Card 6 -->
           <div class="col-12 col-sm-6 col-md-4">
-            <div class="card mb-3">
+            <div class="card mb-3 card-show">
               <img src="img/respei.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h2 class="color-tit">Respeito</h2>
-                <p class="card-text">É um dos meus principais valores, trato todos com respeito e como gostaria de ser tratada.</p>
+                <p class="card-text">É um dos meus principais valores, trato todos com respeito e como gostaria de ser
+                  tratada.</p>
               </div>
             </div>
           </div>
@@ -237,13 +243,49 @@
       </div>
     </section>
 
+    <section class="py-5 contato-section" id="contato">
+      <div class="container">
+        <h2 class="text-center mb-4 contato-title">Entre em Contato</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="nome" class="form-label contato-label">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label contato-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Seu e-mail" required>
+              </div>
+              <div class="mb-3">
+                <label for="mensagem" class="form-label contato-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem..."
+                  required></textarea>
+              </div>
+              <button type="submit" class="btn contato-btn w-100">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main>
 
-  <footer>
-
+  <footer class="footer-custom py-4 mt-5">
+    <div class="container text-center text-light">
+      <div class="row">
+        <div class="col-md-6 mb-3 mb-md-0">
+          <h5 class="footer-title">Meu Site</h5>
+          <p class="mb-0">© 2025 Todos os direitos reservados</p>
+        </div>
+        <div class="col-md-6">
+          <a href="#" class="footer-icon me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="footer-icon me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="footer-icon"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
   </footer>
-
 
   <script src="js/bootstrap.bundle.js"></script>
 </body>

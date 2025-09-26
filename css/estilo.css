@@ -1,3 +1,9 @@
+h1, h2, .section-title {
+  word-wrap: break-word;     /* Quebra a palavra se necessário */
+  overflow-wrap: break-word; /* Compatibilidade moderna */
+  hyphens: auto;             /* Coloca hífen automático se suportado */
+}
+
 .fundoMenu{
     background-color: rgb(197, 169, 223);
 }
@@ -20,6 +26,10 @@
 
 .color2-tit{
   color: #b693d4;
+}
+
+.card-show{
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.278);
 }
 
 .custom-accordion .accordion-button {
@@ -64,10 +74,115 @@
   outline: none;
 }
 
-/* Conteúdo com sombra leve */
+/* Cards com sombra leve */
 .custom-accordion .accordion-body {
   background-color: #f3e8ff;
   color: #333;
   box-shadow: inset 0 1px 3px rgba(216, 180, 248, 0.2); /* sombra interna leve */
+}
+
+.contato-section {
+  background-color: #f3e8ff; /* lilás claro */
+}
+
+.contato-title {
+  color: #6a0dad; /* lilás escuro */
+  font-weight: bold;
+}
+
+.contato-label {
+  color: #6c757d; /* cinza */
+}
+
+.contato-btn {
+  background-color: white;
+  color: #6a0dad;
+  border: 2px solid #6a0dad;
+  transition: all 0.3s ease-in-out;
+}
+
+.contato-btn:hover {
+  background-color: #6a0dad;
+  color: white;
+}
+
+.footer-custom {
+  background: linear-gradient(135deg, #6a0dad, #b266ff); /* lilás escuro -> lilás médio */
+  color: #fff;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer-icon {
+  color: #f3e8ff; /* lilás claro */
+  font-size: 1.4rem;
+  transition: color 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #ffffff; /* destaque ao passar o mouse */
+}
+
+/* GALERIA */
+
+.shadow-lilas {
+    box-shadow: 0 8px 20px rgba(106, 13, 173, 0.5); /* lilás com transparência */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shadow-lilas:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(102, 74, 122, 0.7);
+}
+
+.card-title-modal {
+  color: #6a0dad; /* lilás escuro */
+}
+
+
+.btn-lilas-escuro {
+  background-color: #6a0dad;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-lilas-escuro:hover {
+  background-color: #4b006e;
+  color: #fff;
+}
+
+
+/* Container de imagem opcional para espaçamento */
+.img-container {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* JOGO DA MEMORIA */
+
+.shadow-lilas {
+  box-shadow: 0 4px 12px rgba(109, 72, 146, 0.686);
+}
+
+/* SITE HAIR */
+
+.shadow-lilas {
+  box-shadow: 0 4px 12px rgba(150, 100, 200, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shadow-lilas:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(150, 100, 200, 0.6);
+}
+
+/* CALCULADORA */
+
+.text-lilas-escuro {
+    color: #5B2C6F; /* lilás escuro */
 }
 
